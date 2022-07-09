@@ -32,4 +32,16 @@ $(document).ready(function(){
 	  
 	});
   })  
+ $(document).ready(function(){
+	$("nav li a").on({
+	  mouseleave: function(){
+		$(this).css("color", "red");
+	  },
+	  mouseenter: function(){
+		$(this).css("color", "white");
+		
+	  }
+	  
+	});
+  })  
        
