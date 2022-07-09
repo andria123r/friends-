@@ -8,4 +8,28 @@ $('.header .arrow i ').click(function(){
 	},1000);
 });
 });
+$(document).ready(function(){
+	$("nav").on({
+	  mouseenter: function(){
+		$(this).css("background-color", "black");
+	  },
+	  mousedown: function(){
+		$(this).css("background-color", "lightgray");
+	  }
+	});
+  })  
+
+  $(document).ready(function(){
+	$(".card").on({
+	  mouseleave: function(){
+		$(this).css("background-color", "white"),
+		$(this).css("color", "black");
+	  },
+	  mouseenter: function(){
+		$(this).css("background-color", "black"),
+		$(this).css("color", "white");
+	  }
+	  
+	});
+  })  
        
